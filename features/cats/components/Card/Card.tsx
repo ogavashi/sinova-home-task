@@ -52,7 +52,7 @@ export const Card = ({ breed }: CardProps) => {
         </div>
 
         <div className="flex flex-col flex-grow justify-end">
-          <Link href={`${ROUTES.VIEW_CAT_BREED}/${breed.id}`}>
+          <Link href={`${ROUTES.VIEW_CAT_BREED}${breed.id}`}>
             <button className="btn btn-primary w-full">View More</button>
           </Link>
         </div>
